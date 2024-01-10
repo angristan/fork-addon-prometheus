@@ -25,6 +25,5 @@ map:
   - config:rw
 config:
   storage_tsdb_retention_time: 15d
-
 schema:
   storage_tsdb_retention_time: str
