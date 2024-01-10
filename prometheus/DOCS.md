@@ -54,7 +54,7 @@ If not it will log errors in the addon log
 Grafana can use prometheus as a datasource, to configure this go to grafana
 and add a datasource.
 The hostname to connect to is depending on the release you installed.
-For stable this is `http://a0d7b954-prometheus:9090`
+For stable this is `http://323718a6-prometheus:9090`
 
 ## Known issues and limitations
 
