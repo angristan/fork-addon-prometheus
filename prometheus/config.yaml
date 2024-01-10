@@ -22,7 +22,7 @@ ports:
 ports_description:
   9090/tcp: Not required for Ingress
 map:
-  - config:rw
+  - addon_config:rw
 options:
   storage_tsdb_retention_time: 15d
 schema:
