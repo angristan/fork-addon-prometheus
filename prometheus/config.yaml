@@ -2,9 +2,8 @@
 name: Prometheus
 version: 0.1.0
 slug: prometheus
-description: Cloud native metrics
-url: https://github.com/hassio-addons/addon-prometheus
-codenotary: codenotary@frenck.dev
+description: Monitoring system & time series database
+url: https://github.com/angristan/fork-addon-prometheus
 startup: services
 ingress: true
 ingress_port: 9090
@@ -18,8 +17,6 @@ arch:
   - armv7
 hassio_api: true
 homeassistant_api: true
-map:
-  - share:rw
 ports:
   9090/tcp: null
 ports_description:

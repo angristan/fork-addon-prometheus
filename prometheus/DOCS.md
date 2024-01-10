@@ -96,36 +96,10 @@ The original setup of this repository is by [Robbert Müller][mjrider].
 For a full list of all authors and contributors,
 check [the contributor's page][contributors].
 
-## License
-
-MIT License
-
-Copyright (c) 2020-2022 Robbert Müller
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
-[contributors]: https://github.com/hassio-addons/addon-Prometheus/graphs/contributors
+[contributors]: https://github.com/angristan/fork-addon-prometheus/graphs/contributors
 [discord-ha]: https://discord.gg/c5DvZ4e
 [discord]: https://discord.me/hassioaddons
-[forum]: https://example.net
-[mjrider]: https://github.com/mjrider
-[issue]: https://github.com/hassio-addons/addon-prometheus/issues
+[issue]: https://github.com/angristan/fork-addon-prometheus/issues
 [reddit]: https://reddit.com/r/homeassistant
-[releases]: https://github.com/hassio-addons/addon-prometheus/releases
+[releases]: https://github.com/angristan/fork-addon-prometheus/releases
 [semver]: http://semver.org/spec/v2.0.0.htm
