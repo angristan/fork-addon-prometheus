@@ -10,7 +10,7 @@ declare value
 
 bashio::log.info 'Starting prometheus...'
 
-options+=(--config.file="/etc/prometheus/prometheus.yml")
+options+=(--config.file="/config/prometheus/prometheus.yml")
 options+=(--storage.tsdb.path="/data/prometheus")
 options+=(--web.console.libraries="/usr/share/prometheus/console_libraries")
 options+=(--web.console.templates="/usr/share/prometheus/consoles")
@@ -28,6 +28,18 @@ done
 
 if ! bashio::fs.directory_exists /data/prometheus; then
   mkdir -p /data/prometheus
+fi
+
+if ! bashio::fs.directory_exists /config/prometheus; then
+  mkdir -p /config/prometheus
+fi
+
+if bashio::fs.file_exists '/config/prometheus/prometheus.yml'; then
+  bashio::log.info 'Found configuration file /config/prometheus/prometheus.yml'
+else
+  bashio::log.warning 'No configuration file found at /config/prometheus/prometheus.yml'
+  bashio::log.warning 'Copying default configuration'
+  cp /etc/prometheus/prometheus.default.yml /config/prometheus/prometheus.yml
 fi
 
 # Run Prometheus
