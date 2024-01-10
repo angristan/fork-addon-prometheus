@@ -1,6 +1,6 @@
 ---
 name: Prometheus
-version: 0.1.5
+version: 0.1.6
 slug: prometheus
 description: Monitoring system & time series database
 url: https://github.com/angristan/fork-addon-prometheus
